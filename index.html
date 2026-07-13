@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="Keywords" content="Lialy Line - more description" />
+    <meta name="description" content="Lialy Line - more description" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lialy Line</title>
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/slick.min.css" />
+    <link rel="stylesheet" href="css/slick-theme.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div class="Body_overlay"></div>
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-new-top">
+        <div class="col-lg-4">
+            <div class="Lang_Country">
+                <ul>
+                    <li><a class="Arabic" href="#">عربي</a> <img src="images/Line.png" alt=""></li>
+                    <li>
+                        <select class="form-control" id="country" name="country" required>
+                            <option value="Kw">Kuwait</option>
+                            <option value="Eg">Egypt</option>
+                            <option value="Ba">Bahrin</option>
+                        </select>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="navBrand">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.svg" alt="">
+                </a>
+            </div>
+            <i class="fa fa-search Search_Icon formobile" data-toggle="modal" data-target="#SearchModel"
+                aria-hidden="true"></i>
+        </div>
+        <div class="col-lg-4">
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="tooltip" title="Search" data-placement="bottom">
+                            <img data-toggle="modal" data-target="#SearchModel" class="searchNav"
+                                src="images/search.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" title="My Account" data-placement="bottom">
+                            <img class="userNav" src="images/user.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" title="Cart" data-placement="bottom">
+                            <img class="cartNav" src="images/cart.png" alt="">
+                            <div class="CartNumber">
+                                <h5>5</h5>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-new-bottom">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span id="CloseNavMenu" class="mx-2 close"><img src="images/cancel.svg" alt=""></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-12">
+            <div id="navbarContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="nav-link dropdown-toggle">Categories</a>
+                        <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+                            <li class="dropdown-submenu">
+                                <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false" class="dropdown-item dropdown-toggle">Couture lingerie</a>
+                                <ul id="dropdownMenu_2" aria-labelledby="dropdownMenu2" class="dropdown-menu border-0">
+                                    <li><a href="#" class="dropdown-item">Subcategory 1</a></li>
+                                    <li><a href="#" class="dropdown-item">Subcategory 2</a></li>
+                                    <li><a href="#" class="dropdown-item">Subcategory 3</a></li>
+                                    <li><a href="#" class="dropdown-item">Subcategory 4</a></li>
+                                    <li><a href="#" class="dropdown-item">Subcategory 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="dropdown-item">Couture lingerie</a></li>
+                            <li><a href="#" class="dropdown-item">Couture lingerie</a></li>
+                            <li><a href="#" class="dropdown-item">Couture lingerie</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">New Products</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                    <li class="formobile nav-item">
+                        <a href="#" class="nav-link">
+                            <img class="fav" src="images/user.png" alt="">
+                            My Account
+                        </a>
+                    </li>
+                    <li class="formobile nav-item">
+                        <a href="#" class="nav-link">
+                            <img class="cart" src="images/cart.png" alt="">
+                            Shopping Cart
+                        </a>
+                    </li>
+                    <li class="formobile nav-item">
+                        <select class="form-control" id="country" name="country" required>
+                            <option value="Kw">Kuwait</option>
+                            <option value="Eg">Egypt</option>
+                            <option value="Ba">Bahrin</option>
+                        </select>
+                    </li>
+                    <li class="formobile nav-item">
+                        <a href="#" class="nav-link Arabic">عربي</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- End navbar -->
+
+    <div class="My_Slider">
+        <div class="slide">
+            <img src="images/slider.png" alt="">
+            <div class="overlay">
+                <div class="contentSlider">
+                    <h1>New, Amazing Stuff Is Here</h1>
+                    <p>Shop Today And Get 20% Discount</p>
+                    <button class="btn">Discover Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/slider.png" alt="">
+            <div class="overlay">
+                <div class="contentSlider">
+                    <h1>New, Amazing Stuff Is Here</h1>
+                    <p>Shop Today And Get 20% Discount</p>
+                    <button class="btn">Discover Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/slider.png" alt="">
+            <div class="overlay">
+                <div class="contentSlider">
+                    <h1>New, Amazing Stuff Is Here</h1>
+                    <p>Shop Today And Get 20% Discount</p>
+                    <button class="btn">Discover Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="MadeIn">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    <div class="MadeTitle">
+                        <h5>MADE IN kuwait</h5>
+                    </div>
+                </div>
+                <div class="col-md-9 col-12">
+                    <div class="MadeDesc">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever
+                            since the 1500s
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Start Categories -->
+    <section id="Categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-6">
+                    <div class="CategoryItem">
+                        <div class="image">
+                            <img src="images/cat_1.png" alt="">
+                            <div class="overlay">
+                                <div class="title">
+                                    <h4>Couture lingerie</h4>
+                                </div>
+                                <div class="shopNow">
+                                    <a href="#">
+                                        <span>Shop Now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-6">
+                    <div class="CategoryItem">
+                        <div class="image">
+                            <img src="images/cat_2.png" alt="">
+                            <div class="overlay">
+                                <div class="title">
+                                    <h4>lingerie</h4>
+                                </div>
+                                <div class="shopNow">
+                                    <a href="#">
+                                        <span>Shop Now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-6">
+                    <div class="CategoryItem">
+                        <div class="image">
+                            <img src="images/cat_3.png" alt="">
+                            <div class="overlay">
+                                <div class="title">
+                                    <h4>Couture lingerie</h4>
+                                </div>
+                                <div class="shopNow">
+                                    <a href="#">
+                                        <span>Shop Now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moreButton">
+                <a href="#">View All</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Categories -->
+
+    <div class="My_Slider">
+        <div class="slide">
+            <img src="images/slider.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/slider.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/slider.png" alt="">
+        </div>
+    </div>
+
+     <!-- Start GiftBox -->
+     <section id="GiftBox">
+        <div class="container">
+            <div class="Headingtitle">
+                <h3>Gift Box</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/prod_1.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h4>Product Name Will Be Here...</h4>
+                            </div>
+                            <div class="price">
+                                <span>150,00 KWD</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/prod_2.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h4>Product Name Will Be Here...</h4>
+                            </div>
+                            <div class="price">
+                                <span>150,00 KWD</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="ProductItem">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/prod_3.png" alt="">
+                            </div>
+                            <div class="title">
+                                <h4>Product Name Will Be Here...</h4>
+                            </div>
+                            <div class="price">
+                                <span>150,00 KWD</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="OrderNow">
+                <a href="#">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- End GiftBox -->
+
+    <!-- Start NewArrivals -->
+    <section id="NewArrivals">
+        <div class="container">
+            <div class="Headingtitle">
+                <h3>New Arrivals</h3>
+            </div>
+            <div id="owl-carousel-one" class="owl-carousel">
+                <div class="ProductItem">
+                    <a href="#">
+                        <div class="image">
+                            <img src="images/prod_1.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h4>Product Name Will Be Here...</h4>
+                        </div>
+                        <div class="price">
+                            <span>150,00 KWD</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="ProductItem">
+                    <a href="#">
+                        <div class="image">
+                            <img src="images/prod_2.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h4>Product Name Will Be Here...</h4>
+                        </div>
+                        <div class="price">
+                            <span>150,00 KWD</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="ProductItem">
+                    <a href="#">
+                        <div class="image">
+                            <img src="images/prod_3.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h4>Product Name Will Be Here...</h4>
+                        </div>
+                        <div class="price">
+                            <span>150,00 KWD</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="ProductItem">
+                    <a href="#">
+                        <div class="image">
+                            <img src="images/prod_4.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h4>Product Name Will Be Here...</h4>
+                        </div>
+                        <div class="price">
+                            <span>150,00 KWD</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="ProductItem">
+                    <a href="#">
+                        <div class="image">
+                            <img src="images/prod_1.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h4>Product Name Will Be Here...</h4>
+                        </div>
+                        <div class="price">
+                            <span>150,00 KWD</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="moreButton">
+                <a href="#">View All</a>
+            </div>
+        </div>
+    </section>
+    <!-- End NewArrivals -->
+
+    <!-- Start CoutureLingerie -->
+    <section id="CoutureLingerie">
+        <div class="container">
+            <div class="Headingtitle">
+                <h3>Couture Lingerie</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="Big_image">
+                        <img src="images/lingerie_img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="ProductItem">
+                        <div class="image">
+                            <img src="images/lingerie_img_small.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h4>Product Name Will Be Here...</h4>
+                        </div>
+                        <div class="price">
+                            <span>150,00 KWD</span>
+                        </div>
+                        <div class="ViewButton">
+                            <a href="#">View This Product</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End CoutureLingerie -->
+
+    <!-- Start Lialy_Vedio -->
+    <section id="Lialy_Vedio">
+        <div class="video_section">
+            <video muted playsinline autoplay loop preload="none" poster="images/lialy_vedio_poster.png" id="myvideo">
+                <source src="vedios/lialy_vedio.mp4" type="video/mp4">
+            </video>
+            <div id="mute" class="btn"></div>
+        </div>
+    </section>
+    <!-- End Lialy_Vedio -->
+
+    <!-- Start About_Details -->
+    <section id="About_Details">
+        <div class="container">
+           
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="details_item">
+                        <div class="title">
+                            <h5><i class="fa fa-truck"></i> Delivery Details</h5>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Lorem Ipsum is text of the printing and ty pesetting industry Lorem Ipsum has been the indus try's standard dummy text ever since the. 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard... dummy text ever since the. 1500s, when an unknown printer took a
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="details_item">
+                        <div class="title">
+                            <h5><i class="fa fa-money"></i> Payment Details</h5>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Lorem Ipsum is text of the printing and ty pesetting industry Lorem Ipsum has been the indus try's standard dummy text ever since the. 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard... dummy text ever since the. 1500s, when an unknown printer took a
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="details_item">
+                        <div class="title">
+                            <h5><i class="fa fa-hand-paper-o"></i> Making Details</h5>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Lorem Ipsum is text of the printing and ty pesetting industry Lorem Ipsum has been the indus try's standard dummy text ever since the. 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard... dummy text ever since the. 1500s, when an unknown printer took a
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About_Details -->
+
+
+    <!-- Start Follow_instagram -->
+    <section id="Follow_instagram">
+        <div class="container">
+            <div class="Insta_title">
+                <span>Follow Us On Instagram</span>
+                <h4>@Lialy_Line</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-6">
+                    <div class="Insta_item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/insta_1.png" alt="">
+                                <div class="overlay">
+                                    <div class="insta_icon">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="Insta_item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/insta_2.png" alt="">
+                                <div class="overlay">
+                                    <div class="insta_icon">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="Insta_item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/insta_3.png" alt="">
+                                <div class="overlay">
+                                    <div class="insta_icon">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="Insta_item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/insta_4.png" alt="">
+                                <div class="overlay">
+                                    <div class="insta_icon">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="Insta_item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/insta_5.png" alt="">
+                                <div class="overlay">
+                                    <div class="insta_icon">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="Insta_item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/insta_6.png" alt="">
+                                <div class="overlay">
+                                    <div class="insta_icon">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Follow_instagram -->
+
+    <!-- Start DescoverSection -->
+    <section id="DescoverSection">
+        <div class="overlay">
+            <div class="content">
+                <h5>Lialy Al Azemi</h5>
+                <p>Discover Where It All Began...</p>
+            </div>
+        </div>
+    </section>
+    <!-- End DescoverSection -->
+
+    <!-- Start AboutLialy -->
+    <section id="AboutLialy">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-12">
+                    <div class="image">
+                        <img src="images/aboutLialy_img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-7 col-12">
+                    <div class="title">
+                        <h4>Lialy Line :</h4>
+                    </div>
+                    <div class="desc">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            It has survived not only five centuries, but also the leap into
+                            electronic typesetting, including versions of Lorem Ipsum remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with
+                            electronic typesetting, including versions of Lorem electronic typesetting, including
+                            versions of Lorem Ipsum remaining essentially unchanged. It was popularised in the 1960s
+                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            electronic typesetting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End AboutLialy -->
+
+
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">Lialy Line</h1>
+                            <div class="line"></div>
+                            <ul class="linksList">
+                                <div class="Links">
+                                    <ul>
+                                        <li>
+                                            <div class="location text-truncate"> Kuwait, Kuwait City, Safat</div>
+                                        </li>
+                                        <li>
+                                            <a href="tel:123456789">
+                                                <div class="location text-truncate"> +11111111111</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </ul>
+                            <hr>
+                            <div class="socialFooter">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">Services</h1>
+                            <div class="line"></div>
+                            <ul class="linksList">
+                                <li><a href="#">Search</a></li>
+                                <li><a href="#">Recently viewed</a></li>
+                                <li><a href="#">New products</a></li>
+                                <li><a href="#">Featured products</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled footer_list">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">My Account</h1>
+                            <div class="line"></div>
+                            <ul class="linksList">
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">My Orders</a></li>
+                                <li><a href="#">My Addresses</a></li>
+                                <li><a href="#">Shopping Cart</a></li>
+                                <li><a href="#">Favorite list</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="list-unstyled">
+                        <li class="widget-container widget_nav_menu">
+                            <h1 class="title-widget">Stay In Touch</h1>
+                            <div class="line"></div>
+                            <ul class="SocialList">
+                                <li>
+                                    <div class="newsteller">
+                                        <span>Subscribe to newsletters</span>
+                                        <div class="email-box">
+                                            <i class="fa fa-envelope"></i>
+                                            <input type="text" class="form-control subscribeInp"
+                                                placeholder="Enter your email here...">
+                                            <div class="subscribeButton">
+                                                <button class="btn">Subscribe</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <hr>
+                                <li>
+                                    <span class="DownloadApp">Download Our App</span>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-md-6 col-4">
+                                                    <a href="#"><img class="app-store" src="images/AppStore.png"
+                                                            alt=""></a>
+                                                </div>
+                                                <div class="col-md-6 col-4">
+                                                    <a href="#"><img class="google-play" src="images/GooglePlay.png"
+                                                            alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-12 p-0">
+                    <div class="language">
+                        <p>Copyright © 2021 Lialy Line. All rights reserved.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-12 p-0">
+                    <div class="copyright">
+                        <p>Developed by <a href="#"><img src="images/HardTask_logo.svg" alt=""></a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End Footer -->
+
+    <!-- Start Scroll To Top  -->
+    <div class="scroll_top">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
+    <!-- End Scroll To Top -->
+
+    <!-- Bothelp.io widget -->
+        <script type="text/javascript">!function(){var e={"token":"965 99395951","position":"left","bottomSpacing":"","callToActionMessage":"","displayOn":"everywhere","subtitle":"Home Of Luxury Design","message":{"name":"Lialy Line","content":"Hey! How can we help you?"}},t=document.location.protocol+"//bothelp.io",o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=t+"/widget-folder/widget-whatsapp-chat.js",o.onload=function(){BhWidgetWhatsappChat.init(e)};var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(o,n)}();</script>
+    <!-- /Bothelp.io widget -->
+
+
+    <div class="modal fade" id="SearchModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content SearchModelContent">
+                <form action="">
+                    <div class="search_box_popup">
+                        <input class="search_input" type="search" placeholder="Search..." />
+                        <input class="search_btn" type="submit" value="Search" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $('.My_Slider').slick({
+                rtl: $('body').css('direction') == 'rtl',
+                arrows: false,
+                speed: 500,
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                infinite: true,
+                adaptiveHeight: true
+            });
+        });
+
+        $('#owl-carousel-one').owlCarousel({
+            loop: true,
+            margin: 30,
+            rtl: $('body').css('direction') == 'rtl',
+            nav: true,
+            autoplay: true,
+            navText: [
+                '<i class="fa fa-angle-left"></i>',
+                '<i class="fa fa-angle-right"></i>'
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                750: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+
+
+
+        if ($.isFunction('owlCarousel')) {
+            $(".carousel").owlCarousel();
+        }
+    </script>
+</body>
+
+</html>
